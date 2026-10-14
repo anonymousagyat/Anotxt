@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/fileNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 Oct 2026.txt"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/fileMetaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="3.2 KB • Modified 17:02"
+        android:textSize="12sp"
+        android:textColor="#666666" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/viewFileButton"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Content"
+            android:textColor="#1976D2"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/shareFileButton"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Share"
+            android:textColor="#388E3C"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/deleteFileButton"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Delete"
+            android:textColor="#D32F2F"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

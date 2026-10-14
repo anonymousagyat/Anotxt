@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Anotxt</string>
+    <string name="accessibility_service_description">Accessibility features for the app\'s stated purpose.</string>
+</resources>
