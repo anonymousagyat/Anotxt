@@ -12,6 +12,17 @@
         android:gravity="center_horizontal">
 
         <TextView
+            android:id="@+id/signatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="PARI-2018"
+            android:textSize="11sp"
+            android:textColor="#888888"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.04" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
